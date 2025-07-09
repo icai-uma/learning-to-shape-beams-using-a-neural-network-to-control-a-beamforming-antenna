@@ -8,9 +8,9 @@ The field of reconfigurable intelligent surfaces (RIS) has gained significant tr
 
 # Code
 
-This repository contains validation code as well as several pretrained models and datasets for the 1-bit RIS surface described in the paper, and also for the theoretical 2-bit RIS surface described in the appendix. Datasets provided in this repository have a step of 1 degree both in phi and theta angles.
+This repository contains validation code. To run the validation code, both datasets and pretrained models are needed. The github project associated to this repository has an associated release with two zip files, one for the datasets, and the other with the pretrained models. To use this repository, clone it to your local computer and unzip both previously mentioned zip files (after unzipping them, the repository should contain two new subfolders: `trainings` and `datasets`).
 
-Each pretrained model is in a subfolder in `trainings`. Correspondence between folder names and model specification in the paper (tables 1, 2, A.3 and A.4 in the paper) is as following:
+After unzipping, each pretrained model is in a subfolder in `trainings`. Correspondence between folder names and model specifications in the paper (tables 1, 2, A.3 and A.4 in the paper) is as following:
 
 | bits |  N  | output   | loss  |  n  |   FOLDER_NAME                                             |
 |------|-----|----------|-------|-----|-----------------------------------------------------------|
@@ -74,5 +74,7 @@ python tablerito.py --device 0 --config_file configuration_arguments.txt --check
 ## Requirements
 
 Requeriments were installed with conda, but should work with any other installation method. Versions are orientative (no advanced features from any library were used, so the code should work with any reasonable recent version of any of these): Pytorch 1.10.2, Numpy 1.22.2, Scipy 1.8.0, Matplotlib 3.5.1, OpenCV's python bindings 4.5.3.
+
+While the pytorch code can be converted to just use the CPU, that mode of execution would be very slow. An NVidia GPU is required to accelerate the execution of the model.
 
 
