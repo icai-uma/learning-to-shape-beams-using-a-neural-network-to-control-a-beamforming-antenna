@@ -8,7 +8,7 @@ The field of reconfigurable intelligent surfaces (RIS) has gained significant tr
 
 # Code
 
-This repository contains validation code. To run the validation code, both datasets and pretrained models are needed. The github project associated to this repository has an associated release with two zip files, one for the datasets, and the other with the pretrained models. To use this repository, clone it to your local computer and unzip both previously mentioned zip files (after unzipping them, the repository should contain two new subfolders: `trainings` and `datasets`).
+This repository contains validation code, as well as some constant weights for the models with DCT output. To run the validation code, both datasets and pretrained models are needed. The github project associated to this repository has an associated release with two zip files, one for the datasets, and the other with the pretrained models. To use this repository, clone it to your local computer and unzip both previously mentioned zip files (after unzipping them, the repository should contain two new subfolders: `trainings` and `datasets`). The zip for the datasets can be downloaded [[here](https://github.com/icai-uma/learning-to-shape-beams-using-a-neural-network-to-control-a-beamforming-antenna/releases/download/binary_data/datasets.zip)] and the zip for the pretrained models can be downloaded [[here](https://github.com/icai-uma/learning-to-shape-beams-using-a-neural-network-to-control-a-beamforming-antenna/releases/download/binary_data/pretrained_models.zip)].
 
 After unzipping, each pretrained model is in a subfolder in `trainings`. Correspondence between folder names and model specifications in the paper (tables 1, 2, A.3 and A.4 in the paper) is as following:
 
