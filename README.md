@@ -1,6 +1,6 @@
 # Learning to shape beams: using a neural network to control a beamforming antenna
 
-This is a repository for the paper [[Learning to shape beams: using a neural network to control a beamforming antenna](https://doi.org/LINK_PENDING)]
+This is a repository for the paper [[Learning to shape beams: using a neural network to control a beamforming antenna](https://doi.org/10.1016/j.comnet.2025.111544)]
 
 # Abstract
 
